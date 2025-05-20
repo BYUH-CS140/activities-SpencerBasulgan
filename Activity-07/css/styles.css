@@ -39,12 +39,12 @@
         border: 1px solid#F3F3E0;
     }
     li a:hover {
-        background-color: #183B4E;
+        background-color: #42a2d6;
         color: white;
     }
 
     /* This is the style of the second header*/
-    .header2{
+    .header{
         padding-bottom: 10px;
         background-color: #183B4E; 
         color: rgb(255, 255, 255); 
@@ -55,8 +55,6 @@
         border: 3px solid rgb(218, 218, 218);
         width: 100%;       
         object-fit: cover;
-        top: -200px; 
-        
     }
 
     /*body of the webpage*/
@@ -79,6 +77,11 @@
         color : #27548A; 
         margin-left: 20px;  
     }
+    mark {
+        color: white;
+        background-color: #183B4E;
+    }
+    
 
     
 
