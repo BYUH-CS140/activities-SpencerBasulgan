@@ -43,6 +43,15 @@
         color: white;
     }
 
+    /* Header font from google font*/
+    .anton-sc-regular {
+        font-family: "Anton SC", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+    }
+    
+
+
     /* This is the style of the second header*/
     .header{
         padding-bottom: 10px;
