@@ -13,7 +13,7 @@ header {
   margin: 0;
 }
 
-nav {
+nav { /*removed the .*/
   background-color: #2e1a1a;
   width: 100%;
   margin: 0;
@@ -44,7 +44,7 @@ nav a {
   padding: 14px 16px;
 }
 
-nav a:hover { /*doulbe : in hover*/
+nav a:hover { /*double : in hover*/
   background-color: gold;
   color: #2e1a1a;
 }
