@@ -10,6 +10,7 @@
     margin: 0 auto;
 }
 
+/*nav bar*/
 .menu {
     padding: 0;
     list-style: none;
@@ -129,15 +130,22 @@ footer{
     margin: 0;
     padding: 0;
 }
+/*youtube video*/
 iframe{
         width: 100%;
     }
 
+/*for tablet size*/
 @media screen and (min-width: 768px) {
+    #title{
+    font-size: 3em;
+    }
+
     body{
         font-size: 16px;
         margin-left: 0 auto;
     }
+    /*nav bar modifications*/
     .menu li {
     display: inline-block;
     }
@@ -145,40 +153,40 @@ iframe{
     .menu li a {
     display: inline-block;
     }
+    /*images modifications*/
     .bicolexpress{
         width: 400px;
     }
-    h1{
-        text-align: center;
-    }
-    .mayon{
+      .mayon{
     width: 500px;
     float: left;
     }
-    #title{
-    font-size: 3em;
-    }
+    /*main section*/
     .container{
     display: flex;
     gap: 20px;
     }
+
+    h1{
+        text-align: center;
+    }
+
     iframe{
         width: 100%;
         height: 40%;
     }
-    
-
-    
 }
 
 @media screen and (min-width: 1024px) {
+    /* for desktop size*/
+    #title{
+    font-size: 3.5em;
+    }
+
     body{
         font-size: 17px;
     }
-    .bicolexpress{
-        width: 600px;
-        height: 350px;
-    }
+    /*nav bar modifications*/
     .menu li {
     display: inline-block;
     }
@@ -186,26 +194,26 @@ iframe{
     .menu li a {
     display: inline-block;
     }
+    /*images*/
+    .bicolexpress{
+        width: 600px;
+        height: 350px;
+    }
+    
     .mayon{
     width: 500px;
     float: left;
     }
-
-    .bicolexpress{
-    text-align: center;
-    }
-
-    h1{
-        text-align: center;
-    }
-    #title{
-    font-size: 3.5em;
-    }
+    /*main section*/
     .container{
     max-width: max-content;
     display: flex;
     gap: 20px;
     justify-content:space-between;
+    }
+
+    h1{
+        text-align: center;
     }
 
     iframe{
