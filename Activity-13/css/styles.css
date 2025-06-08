@@ -118,7 +118,7 @@ section{
     margin-left: 20px;
 }
 
-h1{
+h2{
     border: solid 1px black;
     padding: 5px;
     box-shadow: 3px 5px black;
@@ -167,7 +167,7 @@ iframe{
     gap: 20px;
     }
 
-    h1{
+    h2{
         text-align: center;
     }
 
@@ -212,7 +212,7 @@ iframe{
     justify-content:space-between;
     }
 
-    h1{
+    h2{
         text-align: center;
     }
 
