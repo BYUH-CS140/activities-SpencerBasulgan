@@ -80,15 +80,10 @@ li a:hover {
     margin-top: 10px;
 }
 
-.hsection{
-    text-align: center;
-}
-
-
 .hsection {
-  list-style: none;
-  padding: 0;
-  text-align: center;
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
 /*tablet size*/
 @media screen and (min-width: 768px) {
