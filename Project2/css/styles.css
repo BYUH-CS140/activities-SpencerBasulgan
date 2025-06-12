@@ -65,9 +65,9 @@ nav li a{
     text-decoration: none;
 }
 li a:hover {
-  background-color: #255F38;
-  display: inline-block;
-  width: 100%;
+    background-color: #255F38;
+    display: inline-block;
+    width: 100%;
 }
 
 /* home page */
@@ -90,7 +90,7 @@ li a:hover {
   padding: 0;
   text-align: center;
 }
-
+/*tablet size*/
 @media screen and (min-width: 768px) {
     body{
         font-size: 16px;
@@ -107,6 +107,7 @@ li a:hover {
         height: 300px;
     }
 
+    /*homepage items*/
     .hcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -114,7 +115,7 @@ li a:hover {
         margin: 5px;
     }
 }
-
+/*desktop size*/
 @media screen and (min-width: 1024px) {
     body{
         font-size: 17px;
@@ -138,7 +139,7 @@ li a:hover {
         display: inline-block;
         padding: 2px;
     }
-
+    /*homepage items*/
     .hcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
