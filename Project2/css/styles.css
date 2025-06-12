@@ -1,0 +1,154 @@
+body{
+    color: #18230F;
+    background-color: #fffcfc;
+    font-size: 14px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: #18230F;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img{
+    border: 10px solid#a8ac72;
+    width: 100%;
+}
+
+h4{
+    margin-left: 40px;
+}
+
+p{
+    text-align: justify;
+    margin-left: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+mark{
+    background-color: #27391C;
+    color:white;
+    padding: 5px;
+}
+
+footer{
+    color: white;
+    background-color:#18230F;
+}
+
+hr{
+    height: 1px;
+    background-color: #18230F; 
+}
+
+/*navigation bar*/
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #27391C;
+}
+nav li{
+    border-style: ridge;
+    border-color:#a8ac72;
+    text-align: center;
+}
+
+nav li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+  background-color: #255F38;
+  display: inline-block;
+  width: 100%;
+}
+
+/* home page */
+.hparagraph{
+    text-align: center;
+    background-color: #f5f8d1;
+    border: 2px solid #18230F;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.hsection{
+    text-align: center;
+}
+
+
+.hsection {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    .img{
+        height: 300px;
+    }
+
+    .hcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        font-size: 17px;
+    }
+
+    .img{
+        height:250px;
+    }
+
+    .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav li{
+        display: inline-block;
+        padding: 2px;
+    }
+
+    .hcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+
+}
+
+
+
+
