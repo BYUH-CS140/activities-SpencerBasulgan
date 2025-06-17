@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(159, 159, 189);
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+header{
+    text-align: center;
+}
+
+.nav{
+    
+}
+
+.nav ul{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding:0;
+    margin: 0;   
+}
+.nav ul li{
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgb(30, 30, 87);
+    color: white;
+    text-align: center;
+}
+
