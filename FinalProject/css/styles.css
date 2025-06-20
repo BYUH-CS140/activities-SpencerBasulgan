@@ -1,29 +1,169 @@
 body{
-    background-color: rgb(159, 159, 189);
+    background-color: #d9dcd6;
+    color:#0d2b3b;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.nav{
+    margin-top: 150px; 
+}
+
+.nav ul{
+    list-style: none;
+    display: block;
+    margin: 20px 50px;;
+    padding: 0;
+}
+.nav ul li{  
+    background-color: #3a7ca5;
+    border: 2px solid #183B4E;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #d9dcd6;
+}
+
+.nav ul li:hover{
+    background-color: #183B4E;
+    color: #d9dcd6;
+}  
+/*home page*/
+
+.homeheader{
+    font-family:monospace;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3a7ca5; 
+    margin-top: 0;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    z-index: 1000; 
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.himg{
+    margin-top: 15px;
+    width: 70%;
+    border: 5px solid #16425b;
+    border-radius: 20px;
+}
+
+.hsection{
+    display:block;
+    width: 100%;
+    text-align: center;
+}
+
+#hparagraph{
+    text-align: justify;
+    background-color: #16425b;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    margin: 5px 40px;
+}
+.hskills{
+    display:block;
+    padding: 0;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.hskills li{
+    margin-top: 10px;
+    color: #183B4E;
+}
+
+/*About Page*/
+.asection{
+    margin: 10px 40px;
+    text-align: center;
+    color: #183B4E;
+}
+
+.acontacts{
+    display:block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.acontacts li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 5px;
+}
+
+.acontacts li a{
+    margin-top: 10px;
+    text-decoration: none;
+    color:#183B4E;
+}
+/*Work Experience Page*/
+.wsection{
+    margin: 10px 40px;
+    text-align: center;
+    color: #183B4E;
+}
+
+.wsection p{
+    text-align: justify;
+}
+
+/*Education Attainment Page*/
+.esection{
+    margin: 10px 40px;
+    text-align: center;
+    color: #183B4E;
+}
+
+/*General Styles*/
+.pageheader{
+    font-family:monospace;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3a7ca5; 
+    margin-top: 0;
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    z-index: 1000; 
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
 
 header{
     text-align: center;
 }
 
-.nav{
-    
+hr{
+    width: 90%;
 }
 
-.nav ul{
-    list-style: none;
-    display: inline-block;
-    width: 100%;
-    padding:0;
-    margin: 0;   
+
+
+.quote{
+    border: 1px solid #183B4E;
+    padding: 5px;
+    color: #183B4E;
+
 }
-.nav ul li{
-    width: 100%;
-    border: 1px solid white;
-    background-color: rgb(30, 30, 87);
+
+footer{
+    display: flex;
+    background-color: #16425b;
     color: white;
-    text-align: center;
 }
-
