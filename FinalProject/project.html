@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/5ae7a543fc.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
+<body class="grid-container">
+    <header class="hheader">
         <div class="pageheader" id="mainHeader">
         <h1>Projects</h1>
         </div>
+    </header>
+    <header class="hnav">
         <nav class="nav">
+            <img src="images/icon.jpg" alt="Spencer Basulgan" class="icon"> 
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="work.html">Work Experience</a></li>
@@ -20,11 +23,58 @@
                 <li><a href="project.html">Projects</a></li>
                 <li><a href="About.html">About</a></li>
             </ul>
+            <button id="darkModeToggle" class="toggle-dark">Dark Mode</button>
         </nav>
-        <hr>
     </header>
-    <section>
-    </section>
+    <main class="hmain">
+        <section class="psection">
+            <div>
+                <h3>David and Goliath Java Maze Game </h3>
+                <img class="pimg" src="images/david.png" alt="david and goliath game">
+                <h4>Programming Language : Java</h4>
+                <h4>Description</h4>
+                <p>
+                    A puzzle game where the player controls the character David, 
+                    who must pick up five stones before defeating Goliath.
+                </p>
+                <h4>links</h4>
+                <a href="files/David and Goliath/" download>Java File</a>
+                <a href="files/CS202-11.mp4">Video Explanation</a>
+
+            </div>
+            <div>
+                <h3>Bicol Photo Tour Website </h3>
+                <img class="pimg" src="images/tour.png" alt="Biol Photo Tour website">
+                <h4>HTML & CSS</h4>
+                <h4>Description</h4>
+                <p>
+                    A photo tour website that showcases the beautiful scenery and tourist 
+                    destinations in Bicol, Philippines. It also features the region's delicious 
+                    cuisine and recommended activities.
+                </p>
+                <h4>links</h4>
+                <a href="https://byuh-cs140.github.io/activities-SpencerBasulgan/Project2/index.html">Website</a>
+            </div>
+            <div>
+                <h3>Multi-Stake YSA Conference Participants Worksheet</h3>
+                <img class="pimg" src="images/dashboard.png" alt="Dashboard of the Worksheet">
+                <h4>Software : Excel</h4>
+                <h4>Description</h4>
+                <p>
+                    A workbook with multiple sheets that show the budget per stake for the conference, 
+                    along with dashboards where you can view each participant's profile and information 
+                    such as group number, groupmates, and their stake or ward.
+                </p>
+                <h4>links</h4>
+                <a href="files/FinalProject_Basulgan.xlsx">Excel file</a>
+            </div>
+        </section>
+    </main>
+    <footer class="hfooter">
+        <p><sub>&copy; Spencer Basulgan at BYU Hawaii 2025
+            </sub></p>
+    </footer>
     <script src="js/scrolleffect.js"></script>
+    <script src="js/darkmode.js"></script>
 </body>
 </html>

@@ -1,10 +1,91 @@
-body{
+body.light-mode{
     background-color: #d9dcd6;
     color:#0d2b3b;
     margin: 0 auto;
     font-size: 12px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/*dark mode*/
+body.dark-mode {
+    background-color: #0d2b3b;
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*home page*/
+
+    .himg{
+    border: 5px solid #3a7ca5;
+    }
+
+
+    .hskills li{
+        color: white;
+    }
+
+        /*About Page*/
+    .asection{
+        color: white;
+    }
+
+    .acontacts li a{
+        color:white;
+    }
+/*Work Experience Page*/
+    .wsection{
+        color: white;
+    }
+
+    /*Education Attainment Page*/
+    .esection{
+        color: white;
+    }
+
+    .eimg {
+        border: 5px solid #3a7ca5;
+    }
+
+    .controls {
+        margin-top: 1em;
+    }
+    button {
+        color: #183B4E;
+    }
+
+    .quote{
+        border: 1px solid white;
+        color: white;
+    }
+
+    .psection{
+        color: white;
+    }
+
+    .psection a{
+        color: white;
+    }
+
+    .pimg{
+        border:5px solid #3a7ca5;
+    }
+}
+
+
+button.toggle-dark {
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3a7ca5;
+  color: white;
+}
+
+button:hover {
+    background-color: #555;
+}
+
 
 .nav{
     margin-top: 150px; 
@@ -23,6 +104,7 @@ body{
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .nav ul li a{
@@ -64,7 +146,7 @@ body{
     text-align: center;
 }
 
-#hparagraph{
+.hparagraph{
     text-align: justify;
     background-color: #16425b;
     border-radius: 5px;
@@ -120,12 +202,57 @@ body{
 .wsection p{
     text-align: justify;
 }
+/*Projects page*/
+.psection{
+    margin: 10px 30px;
+    text-align: center;
+    color: #183B4E;
+}
+
+.psection p{
+    text-align: justify;
+}
+
+.psection a{
+    display: block;
+    color: #183B4E;
+}
+
+.pimg{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #183B4E;
+    border-radius: 5px;
+}
+
 
 /*Education Attainment Page*/
 .esection{
     margin: 10px 40px;
     text-align: center;
     color: #183B4E;
+}
+
+.eimg {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #183B4E;
+    border-radius: 5px;
+}
+
+.cert{
+    text-align: center;
+    padding: 10px;
+}
+
+.controls {
+    margin-top: 1em;
+}
+button {
+    padding: 10px 20px;
+    color: #183B4E;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
 /*General Styles*/
@@ -153,7 +280,9 @@ hr{
     width: 90%;
 }
 
-
+.icon{
+    display: none;
+}
 
 .quote{
     border: 1px solid #183B4E;
@@ -166,13 +295,45 @@ footer{
     display: flex;
     background-color: #16425b;
     color: white;
+    padding-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
-    body{
+    body.light-mode{
         font-size: 16px;
         margin-left: 0;
-        margin-top: 180px;
+        margin-top: 170px;
+    }
+
+    body.dark-mode {
+        background-color: #0d2b3b;
+        color: #ffffff;
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 170px;
+    }
+
+    .nav ul{
+        display: flex;
+        justify-content: center; 
+        gap: 10px;                
+        margin: 20px 0;
+    }
+
+    .nav ul li{
+        min-width: 120px;
+        max-width: 150px;     
+        white-space: normal;    
+        word-wrap: break-word;      
+        padding: 5px 10px;
+        background-color: #3a7ca5;
+        color: white;
+        border: 1px solid #16425b;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        align-content: center;
     }
 
     .hsection{
@@ -180,7 +341,139 @@ footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
+
+    .wsection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 50px;
+    }
     .hsection > :last-child {
         grid-column: 1 / -1;
+    }
+    .esection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 50px;
+    }
+
+    .psection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body.light-mode{
+        font-size: 17px;
+        margin:0;
+        padding: 0;
+    }
+
+    body.dark-mode {
+        background-color: #0d2b3b;
+        color: #ffffff;
+        font-size: 17px;
+        margin:0;
+        padding: 0;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr 3fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "nav header header"
+        "nav main main"
+        "nav footer footer";
+        height: 100vh;
+    }
+
+    .hheader {
+        grid-area: header;
+    }
+
+    .hnav {
+        grid-area: nav;
+        background-color: #3a7ca5;
+        height: 100%;
+        width: 14.3%; 
+        position:fixed;     
+    }
+
+    .hmain {
+        margin-top: 180px;
+        grid-area: main;
+    }
+
+    .hfooter {
+        grid-area: footer;
+    }
+
+    .hsection{
+        display:grid;
+        grid-template-rows: auto;
+    }
+
+    .nav{
+        margin-top: 0;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: start;
+        height: 100vh;          
+        background-color: #3a7ca5; 
+        
+    }
+
+    .nav ul{
+        display: block;
+        margin:20px;
+    }
+
+    .nav ul li{  
+        background-color: #3a7ca5;
+        border: 2px solid white;
+        text-align: center;
+        align-content: center;
+        margin-top: 20px;   
+        border-radius: 5px;
+        height: 2.3rem; 
+    }
+
+    .homeheader{
+        text-align: left;
+        padding-left: 20px;
+        background-color: #16425b;
+    }
+
+    .himg{
+        height: 80%;
+        width: 55%;
+    }
+
+    .pageheader{
+        text-align: left;
+        padding-left: 20px;
+        background-color: #16425b;
+    }
+
+    .icon{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        border-radius: 100px;
+        border: 1px solid white;
+    }
+
+    .hparagraph{
+        display: inline-block;
+        text-align: left;
+        margin-left: 0;
     }
 }

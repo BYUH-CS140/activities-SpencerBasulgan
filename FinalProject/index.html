@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/5ae7a543fc.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
+<body class="grid-container">
+    <header class="hheader">
         <div class="homeheader" id="mainHeader">
         <h1><em>Getting to know</em> <br>
         Spencer Basulgan</h1>
         </div>
+    </header>
+    <header class="hnav">
         <nav class="nav">
+            <img src="images/icon.jpg" alt="Spencer Basulgan" class="icon"> 
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="work.html">Work Experience</a></li>
@@ -21,9 +24,10 @@
                 <li><a href="project.html">Projects</a></li>
                 <li><a href="About.html">About</a></li>
             </ul>
+            <button id="darkModeToggle" class="toggle-dark">Dark Mode</button>
         </nav>
-        <hr>
     </header>
+    <main class="hmain">
     <section class="hsection">
         <div>
         <img src="images/profile.jpeg.jpeg" alt="Spencer Basulgan" class="himg"> 
@@ -31,7 +35,7 @@
         </div>
         <div>
         <br>
-        <p id="hparagraph"><b>Hi! I'm Spencer Basulgan</b>, a hard-working student of Brigham Young University - Hawaii. 
+        <p class="hparagraph"><b>Hi! I'm Spencer Basulgan</b>, a hard-working student of Brigham Young University - Hawaii. 
             I am majoring Computer Science and Accounting. I have strong interest in developing software 
             that could provide convenience to businesses in preparing financial reports or providing 
             assistance in effective decision making. I'm currently building up my skills through projects 
@@ -42,7 +46,6 @@
             <p>"Success is not final, failure is not fatal: It is the courage to continue that counts."
             <br><em>— Winston Churchill</em></p>
         </blockquote>
-        <hr>
         <h3>Programming Languages:</h3>
         <ul class="hskills">
             <li><i class="fa-brands fa-html5"></i> HTML</li>
@@ -55,18 +58,20 @@
         <hr>
         <h3>Want to collaborate? Reach out via:</h3>
         <ul class="acontacts">
-            <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-            <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-            <li><a href="#"><i class="fa-solid fa-phone"></i> Call/Message</a></li>
+            <li><a href="linkedin.com/in/spencer-basulgan-a0162a271"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/spencer.basulgan.7/about"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+            <li><a href="mailto:ispinsirr@gmail.com"><i class="fa-solid fa-envelope"></i> Gmail</a></li>
+            <li><a href="sms:+2138314084"><i class="fa-solid fa-phone"></i> Call/Message</a></li>
         </ul>
         <br>
         </div>
     </section>
-    <footer>
+    </main>
+    <footer class="hfooter">
         <p><sub>&copy; Spencer Basulgan at BYU Hawaii 2025
             </sub></p>
     </footer>
     <script src="js/scrolleffect.js"></script>
+    <script src="js/darkmode.js"></script>
 </body>
 </html>
