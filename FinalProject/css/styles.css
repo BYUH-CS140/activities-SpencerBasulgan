@@ -192,6 +192,35 @@ button:hover {
     text-decoration: none;
     color:#183B4E;
 }
+.email{
+    width: fit-content; 
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #183B4E; 
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.email .box{
+    display: inline-block;
+    width: 80%;
+}
+
+.email .sendbutton{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #183B4E;
+    border: none;
+    padding: 5px 10px;
+}
+
+.email .sendbutton:hover{
+    background-color: #3a7ca5;
+    color: white;
+}
+
 /*Work Experience Page*/
 .wsection{
     margin: 10px 40px;

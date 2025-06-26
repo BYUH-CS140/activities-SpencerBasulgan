@@ -45,12 +45,30 @@
             <h3>Want to collaborate? Reach out via:</h3>
             <br>
             <ul class="acontacts">
-                <li><a href="linkedin.com/in/spencer-basulgan-a0162a271"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="https://www.facebook.com/spencer.basulgan.7/about"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                <li><a href="mailto:ispinsirr@gmail.com"><i class="fa-solid fa-envelope"></i> Gmail</a></li>
-                <li><a href="sms:+2138314084"><i class="fa-solid fa-phone"></i> Call/Message</a></li>
+                <li><a target="_blank" href="linkedin.com/in/spencer-basulgan-a0162a271"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/spencer.basulgan.7/about"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li><a target="_blank" href="sms:+2138314084"><i class="fa-solid fa-phone"></i> Call/Message</a></li>
             </ul>
             <br>
+            <div class="email">
+                <h3>Email Me</h3>
+                <form action="https://formsubmit.co/ispinsirr@gmail.com" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required><br>
+                <br>
+
+                <label for="message">Message:</label><br>
+                <textarea class="box" name="message" rows="10" required></textarea><br>
+
+                <!-- Optional: prevent spam -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input class="sendbutton" type="submit" value="Send">
+                </form>
+            </div>
         </section>
     </main>
     <footer class="hfooter">
